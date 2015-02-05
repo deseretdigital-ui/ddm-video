@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>Video Player</title>
+        <script src="http://jwpsrv.com/library/YOUR_JW_PLAYER_ACCOUNT_TOKEN.js"></script>
+        <script src="video.js"></script>
+    </head>
+    <body>
+        <div id="player"></div>
+        <script>
+            var options = {
+                file: 'http://link.to.some/video.mp4'
+            };
+            var video = new Video('#player', options);
+        </script>
+    </body>
+</html>
