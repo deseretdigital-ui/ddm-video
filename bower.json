@@ -1,0 +1,12 @@
+{
+  "name": "ddm-video",
+  "private": true,
+  "description": "Basic video player wrapper for JWPlayer",
+  "homepage": "https://github.com/deseretdigital-ui/ddm-video",
+  "authors": [
+    "Jeremy Hicks <jhicks@deseretdigital.com>"
+  ],
+  "dependencies": {
+    "jquery": "~1"
+  }
+}
